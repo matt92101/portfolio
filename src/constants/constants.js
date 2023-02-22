@@ -21,9 +21,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: '', },
-  { year: 2018, text: '', },
-  { year: 2019, text: '', },
-  { year: 2020, text: '', },
-  { year: 2021, text: '', },
+  { year: 2017, text: 'test', },
+  { year: 2018, text: 'test2', },
+  { year: 2019, text: 'test3', },
+  { year: 2020, text: 'test4', },
+  { year: 2021, text: 'test5', },
 ];
