@@ -8,13 +8,12 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-      Welcome to <br />
-      My personal Portfolio
+      MATT KRUG >> FYI <br />
       </SectionTitle>
       <SectionText>
-        The purpose of this portfolio..
+        Developer Portfolio
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://google.com'}>More About Matt</Button>
     </LeftSection>
 
   </Section>
