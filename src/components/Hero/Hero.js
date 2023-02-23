@@ -13,7 +13,7 @@ const Hero = () => (
       <SectionText>
         Developer Portfolio
       </SectionText>
-      <Button onClick={() => window.location = "#about"}>More About Matt</Button>
+      <Button onClick={() => window.location = "#about"}>About Me</Button>
     </LeftSection>
 
   </Section>
