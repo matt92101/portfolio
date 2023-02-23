@@ -10,6 +10,7 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  Img,
 } from "./TimeLineStyles";
 import {
   Section,
@@ -66,12 +67,11 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
+      <img height="40%" width="40%" src= "./images/matt.png"></img> <br></br><br></br>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+      I was a passionate high school teacher for 6 years, but after experiencing a personal passion for coding and web development, I decided to make a career shift. I started learning to code in my free time, eventually taking courses online and attending the LEARN Academy Full Stack Bootcamp to build up my skills. I quickly realized that my teaching background had provided me with valuable skills that translate well to the tech industry, including strong communication skills, the ability to break down complex concepts into manageable pieces, and the patience to help others learn. I enjoy the opportunity to continue learning and growing in my new role as a Full Stack Developer, and extremely grateful for the chance to apply my skills in new and exciting ways everyday.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -139,7 +139,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
+      </CarouselButtons> */}
       <SectionDivider />
     </Section>
   );

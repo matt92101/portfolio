@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiZend, DiCode } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -20,13 +20,25 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>I've worked with a wide range of technologies.</SectionText>
     <List>
+    <ListItem>
+        <DiCode size="3rem" />
+        <ListContainer>
+          <ListTitle>Languages</ListTitle>
+          <ListParagraph>
+            
+            JavaScript<br />
+            Ruby
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js React Native Expo
+           
+            React.js <br />
+            React Native Expo
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,9 +47,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Ruby on Rails
-            Node.js
+            
+            Ruby on Rails<br />
+            Node.js<br />
             Databases
           </ListParagraph>
         </ListContainer>
@@ -47,11 +59,13 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Figma
+            
+            Figma<br />
+            Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      
     </List>
   </Section>
 );

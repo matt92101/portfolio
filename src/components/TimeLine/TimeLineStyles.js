@@ -152,3 +152,9 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+export const Img = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+`

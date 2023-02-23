@@ -8,15 +8,15 @@ export const projects = [
     visit: 'https://atlas-capstone.onrender.com/',
     id: 0,
   },
-  {
-    title: 'Project Placeholder',
-    description:"This is a temporary placeholder",
-    image: '/images/.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
+  // {
+  //   title: 'Project Placeholder',
+  //   description:"This is a temporary placeholder",
+  //   image: '/images/.png',
+  //   tags: ['React', 'JavaScript'],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 1,
+  // },
 
 ];
 
